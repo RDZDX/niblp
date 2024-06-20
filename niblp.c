@@ -23,7 +23,7 @@ void checkFileExist(void) {
 
     create_app_new_path(f_wname, "271123656.vxp");
 
-    if (property1.appID == 2) {                         // Bing
+    if (property1.appID == 2) {                         // System menu:Bing
        if (vm_file_get_attributes(f_wname) != -1) {     // find 271123656.vxp
           vm_start_app(f_wname, 0, 0);
        } else {
