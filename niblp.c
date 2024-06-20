@@ -24,7 +24,7 @@ void checkFileExist(void) {
     create_app_new_path(f_wname, "271123656.vxp");
 
     if (property1.appID == 2) {                         // Bing
-       if (vm_file_get_attributes(f_wname) != -1) {     // find 271307840.vxp
+       if (vm_file_get_attributes(f_wname) != -1) {     // find 271123656.vxp
           vm_start_app(f_wname, 0, 0);
        } else {
           vm_ascii_to_ucs2(ucs2_data, (strlen(MyUrl) + 1) * 2, MyUrl);
